@@ -41,10 +41,10 @@ print(response.text)
 ```
 
 Options:
-* url: https://api-b2b.backenster.com/b1/api/v3/getLanguages
-* platform: api
-* Authorization: The key must be obtained in advance
-* code: the language code in the format “language code_code of the country”, which is used to display the names of the languages. The language code is represented only in lowercase letters, the country code only in uppercase letters (example en_GB, es_ES, ru_RU etc). If this option is not present, then English is used by default.
+* `url`: https://api-b2b.backenster.com/b1/api/v3/getLanguages
+* `platform`: api
+* `Authorization`: The key must be obtained in advance
+* `code`: the language code in the format “language code_code of the country”, which is used to display the names of the languages. The language code is represented only in lowercase letters, the country code only in uppercase letters (example en_GB, es_ES, ru_RU etc). If this option is not present, then English is used by default.
 
 
 # Translate Python Text
@@ -74,14 +74,14 @@ print(response.text)
 ```
 
 Options:
-* url: https://api-b2b.backenster.com/b1/api/v3/translate
-* platform: api
-* Authorization: The key must be obtained in advance
-* from: the language code in the format “language code_code of the country” from which the text is translated. The language code is represented only in lowercase letters, the country code only in uppercase letters (example en_GB, es_ES, ru_RU and etc.). If this parameter is not present, the auto-detect language mode is enabled.
-* to: language code in the format “language code_code of the country” to which the text is translated (required)
-* data: data for translation.
-* translateMode: Describe the input text format. Possible value is "html" for translating and preserving html structure. If the value is not specified or is other than "html" then plain text is translating.
-* enableTransliteration: If true response includes sourceTransliteration and targetTransliteration fields.
+* `url`: https://api-b2b.backenster.com/b1/api/v3/translate
+* `platform`: api
+* `Authorization`: The key must be obtained in advance
+* `from`: the language code in the format “language code_code of the country” from which the text is translated. The language code is represented only in lowercase letters, the country code only in uppercase letters (example en_GB, es_ES, ru_RU and etc.). If this parameter is not present, the auto-detect language mode is enabled.
+* `to`: language code in the format “language code_code of the country” to which the text is translated (required)
+* `data`: data for translation.
+* `translateMode`: Describe the input text format. Possible value is "html" for translating and preserving html structure. If the value is not specified or is other than "html" then plain text is translating.
+* `enableTransliteration`: If true response includes sourceTransliteration and targetTransliteration fields.
 
 
 # Issues
