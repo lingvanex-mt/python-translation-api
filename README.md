@@ -15,6 +15,7 @@ Before using the API you need to create the [account](https://lingvanex.com/regi
 
 # Installation
 You can install the library with PyPI using pip:
+
 `pip install lingvanex`
 
 
@@ -25,7 +26,7 @@ You can install the library with PyPI using pip:
 
 # Getting the list of languages
 To retrieve the list of languages, perform a GET request with the authentication key as follows:
-` ` `
+```
 import requests
 
 url = "https://api-b2b.backenster.com/b1/api/v3/getLanguages?platform=api&code=en_GB"
@@ -35,7 +36,7 @@ headers = {"accept": "application/json"}
 response = requests.get(url, headers=headers)
 
 print(response.text)
-` ` `
+```
 
 Options:
 * url: https://api-b2b.backenster.com/b1/api/v3/getLanguages
