@@ -11,7 +11,7 @@ payload = {
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "Authorization": "Your authorization code"
+    "Authorization": "Your authorization API key"
 }
 
 response = requests.post(url, json=payload, headers=headers)
