@@ -1,7 +1,7 @@
 # Python Translation API
 Discover the Power of Lingvanex Translator Service
 
-Unlock the potential of your applications with Lingvanex Translator, a cutting-edge cloud-based neural machine translation service. Compatible with any operating system, Lingvanex Translator enables the creation of intelligent, multi-lingual solutions for all supported languages. Whether you are looking for a python translation API, or need to translate text efficiently, Lingvanex offers a powerful solution for developers.
+Unlock the potential of your applications with Lingvanex Translator, a cutting-edge cloud-based neural machine translation service. Compatible with any operating system, free translation api Python Lingvanex enables the creation of intelligent, multi-lingual solutions for all supported languages. Whether you are looking for a python translation API, or need to translate text efficiently, Lingvanex offers a powerful solution for developers.
 
 With Lingvanex, you can effortlessly translate both text and HTML pages, enhancing your global reach and communication capabilities. Our free translation API for Python allows you to start integrating translation functionality into your projects quickly and easily. Additionally, our python library for translation ensures smooth integration with minimal setup. You can also explore a specialized python language translation library, making it easy to build language tools.
 
